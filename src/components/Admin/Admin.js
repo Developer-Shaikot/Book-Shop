@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import axios from 'axios';
 
 const Admin = () => {
-    const { register, handleSubmit, watch, errors } = useForm();
+    const { register, handleSubmit} = useForm();
     const [imageURL, setImageURL] = useState(null);
 
     const locationBoxStyle = { 

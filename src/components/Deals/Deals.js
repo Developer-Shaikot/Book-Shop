@@ -6,7 +6,7 @@ import { UserContext } from '../../App';
 
 const Deals = () => {
     const { register, handleSubmit, watch, errors } = useForm();
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const [loggedInUser] = useContext(UserContext);
     const onSubmit = data => {
         console.log('form submitted', data)
       };
