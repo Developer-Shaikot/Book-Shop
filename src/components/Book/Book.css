@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+  }
+  .teams{
+  
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    color:orange;
+  }
+  .row {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .writer{
+      font-style: normal;
+      font-size: 22px;
+  }
+  .btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 8px;
+    color: floralwhite;
+    float: right;
+    font-size: 12px;
+    cursor: pointer;
+}
+.unfield{
+    color: white;
+}
+.dollar{
+    font-size: 17px;
+    color: green;
+}

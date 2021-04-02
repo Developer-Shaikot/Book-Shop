@@ -1,0 +1,35 @@
+.side-container{
+   
+    display: flex;
+}
+.bar-container{
+  background: #000;
+  color: aliceblue;
+  text-align: center;
+  width: 30%; 
+  border-right: 1px solid lightgray;
+  padding: 10px;
+}
+.title{
+    margin: auto;
+    margin-bottom: 50px;
+    padding:auto;
+}
+.manage-side{
+    margin: 190%;
+}
+.theme{
+    color: whitesmoke;
+    font-size:170%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+/* .bar{
+    
+
+} */
+/* .orders-container{
+    width: 40%;
+    margin-right: 20px;
+    border-left: 1px solid lightgray;
+} */
