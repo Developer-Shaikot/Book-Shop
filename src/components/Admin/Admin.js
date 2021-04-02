@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from '../Header/Header';
 import { useForm } from "react-hook-form";
 import axios from 'axios';
+import './Admin.css'
 
 const Admin = () => {
     const { register, handleSubmit} = useForm();
@@ -20,7 +21,7 @@ const Admin = () => {
           price:data.price,
           imageURL: imageURL
       }
-      const url = `http://localhost:5056/admin`
+      const url = `https://pure-cove-97657.herokuapp.com/admin`
 
       
       fetch(url, {
